@@ -4,7 +4,10 @@ DOMAIN JOTTA FONTIT: ;
 /config/settings/domains ➡️ https://macbook-pro.local:5757
 
 */
-* {
+.newsletter-form-header-title {
   background: purple !important;
   color: white !important;
+}
+.newsletter-form-header-title:after {
+  content: "test 4.12";
 }
