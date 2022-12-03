@@ -9,6 +9,14 @@
   ],
   "creatorBuild" : "34365",
   "files" : {
+    "\/_site.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/_site-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
     "\/DAMY Amazon AWS  droplet.app\/Contents\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
