@@ -4,3 +4,7 @@ DOMAIN JOTTA FONTIT: ;
 /config/settings/domains ➡️ https://macbook-pro.local:5757
 
 */
+* {
+  background: black !important;
+  color: white !important;
+}
