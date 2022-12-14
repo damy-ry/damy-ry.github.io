@@ -5,3 +5,9 @@
 .newsletter-block .newsletter-form-button {
   padding: 0.9rem 2rem !important;
 }
+.summary-item-record-type-event * {
+  transition: 0.3s all ease;
+}
+.summary-item-record-type-event:hover .summary-thumbnail-event-date {
+  transform: translateY(-2px);
+}
