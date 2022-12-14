@@ -17,8 +17,8 @@
     {
       "path" : ".git/gitfox/defaults.plist",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670109134,
-      "checksum" : "17645829362bef5a48e16ca7de506398",
+      "lastUpdated" : 1670160232,
+      "checksum" : "650f7527b552788423aa1996c7052537",
       "fileSize" : 232
     },
     {
@@ -57,6 +57,20 @@
       "fileSize" : 134048
     },
     {
+      "path" : "test.liquid",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670242918,
+      "checksum" : "d41d8cd98f00b204e9800998ecf8427e",
+      "fileSize" : 0
+    },
+    {
+      "path" : ".git/objects/4d/811d10f1ae97cbcf733bc169d11ecd2ed5e2ca",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670109685,
+      "checksum" : "383bb0c5176a3c3077ca84e819725421",
+      "fileSize" : 180
+    },
+    {
       "path" : "index.html",
       "mimeType" : "text/html",
       "lastUpdated" : 1670108050,
@@ -87,9 +101,9 @@
     {
       "path" : ".git/logs/refs/remotes/origin/main",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670109133,
-      "checksum" : "1275cd6791b42840c080d55bded0d6e2",
-      "fileSize" : 1099
+      "lastUpdated" : 1670109687,
+      "checksum" : "3ea51ad0d224883038c190117ac85c4f",
+      "fileSize" : 1277
     },
     {
       "path" : ".git/hooks/post-update.sample",
@@ -136,9 +150,16 @@
     {
       "path" : "config.codekit3",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670109671,
-      "checksum" : "ea988c9f74cc7b764f3f6314850d4b48",
-      "fileSize" : 53664
+      "lastUpdated" : 1670560582,
+      "checksum" : "0255e4917316fc69096c0c3d43e3e025",
+      "fileSize" : 54110
+    },
+    {
+      "path" : ".git/objects/99/c0a1e5bdce1384f977196692073c6f3702b803",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670109681,
+      "checksum" : "7f3adeb70ca03ec5d910be7208b24b32",
+      "fileSize" : 266
     },
     {
       "path" : "DAMY Amazon AWS  droplet.app/Contents/Resources/Scripts/main.scpt",
@@ -185,16 +206,16 @@
     {
       "path" : ".git/index",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670109121,
-      "checksum" : "39db221391b374d92435f6e9287bac32",
-      "fileSize" : 1895
+      "lastUpdated" : 1670109683,
+      "checksum" : "d23c78eaf62107ef686378d86753c262",
+      "fileSize" : 1975
     },
     {
-      "path" : "DAMY Amazon AWS  droplet.app/Contents/Resources/droplet.icns",
+      "path" : ".git/hooks/update.sample",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670108093,
-      "checksum" : "f3ff829ef33c3049b9a2eacf7d4b12e2",
-      "fileSize" : 74052
+      "lastUpdated" : 1670107917,
+      "checksum" : "647ae13c682f7827c22f5fc08a03674e",
+      "fileSize" : 3650
     },
     {
       "path" : ".git/objects/03/5c2eeae22e78f54fc002731eb1f8d18708a343",
@@ -202,6 +223,13 @@
       "lastUpdated" : 1670108957,
       "checksum" : "a8cf1f47188fbee0f00979953fe5f646",
       "fileSize" : 185
+    },
+    {
+      "path" : ".git/objects/54/bdccbf80af304411a0e15251ad41085f209128",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670109681,
+      "checksum" : "ebae5f4e58748d5ec3d27ee4eb51ac90",
+      "fileSize" : 4875
     },
     {
       "path" : ".git/hooks/push-to-checkout.sample",
@@ -225,11 +253,11 @@
       "fileSize" : 362
     },
     {
-      "path" : ".git/hooks/update.sample",
+      "path" : "DAMY Amazon AWS  droplet.app/Contents/Resources/droplet.icns",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670107917,
-      "checksum" : "647ae13c682f7827c22f5fc08a03674e",
-      "fileSize" : 3650
+      "lastUpdated" : 1670108093,
+      "checksum" : "f3ff829ef33c3049b9a2eacf7d4b12e2",
+      "fileSize" : 74052
     },
     {
       "path" : ".git/objects/85/399aef916752cef8e122fc4f5b008b0ff31af3",
@@ -244,6 +272,13 @@
       "lastUpdated" : 1670108950,
       "checksum" : "5c863abb0cdd9721e89b7c05686b80f3",
       "fileSize" : 216
+    },
+    {
+      "path" : "damy-ry-github-io.code-workspace",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670242616,
+      "checksum" : "25bf50b0ec79d01de8b83b7b5801b4ac",
+      "fileSize" : 60
     },
     {
       "path" : ".git/objects/50/2c20012867f8c9e8522bea157fb97ed22e2109",
@@ -272,6 +307,13 @@
       "lastUpdated" : 1670108113,
       "checksum" : "2b766333b3fe4d5a213a01831a160775",
       "fileSize" : 726
+    },
+    {
+      "path" : ".git/objects/55/8a3a0ece9284226e7a603640ec391b0c85b9e1",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670109685,
+      "checksum" : "7a99149e78c5db0c2d874df3e83c0ae9",
+      "fileSize" : 389
     },
     {
       "path" : ".git/objects/43/92cde0f2f5bd391b07fba9c59ec5c81fed6fc8",
@@ -311,8 +353,8 @@
     {
       "path" : ".git/refs/heads/main",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670109121,
-      "checksum" : "1f0920417b28f215332cadf83aeeb40d",
+      "lastUpdated" : 1670109683,
+      "checksum" : "26538fe9c4f85a51f0c6975facb7ac5e",
       "fileSize" : 41
     },
     {
@@ -386,10 +428,17 @@
       "fileSize" : 1492
     },
     {
+      "path" : ".git/objects/91/967aea515ecd9a4320d9d6a1b37422ad9d0fc6",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670109681,
+      "checksum" : "ef02acca6847a98b31f49690d1009efb",
+      "fileSize" : 10983
+    },
+    {
       "path" : ".git/refs/remotes/origin/main",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670109133,
-      "checksum" : "1f0920417b28f215332cadf83aeeb40d",
+      "lastUpdated" : 1670109687,
+      "checksum" : "26538fe9c4f85a51f0c6975facb7ac5e",
       "fileSize" : 41
     },
     {
@@ -414,13 +463,6 @@
       "fileSize" : 35
     },
     {
-      "path" : "DAMY Amazon AWS  droplet.app/Contents/_CodeSignature/CodeResources",
-      "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670108093,
-      "checksum" : "7cb072f1582add6008f1b377d228025b",
-      "fileSize" : 3132
-    },
-    {
       "path" : ".git/HEAD",
       "mimeType" : "application/octet-stream",
       "lastUpdated" : 1670107916,
@@ -428,11 +470,18 @@
       "fileSize" : 21
     },
     {
+      "path" : "DAMY Amazon AWS  droplet.app/Contents/_CodeSignature/CodeResources",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670108093,
+      "checksum" : "7cb072f1582add6008f1b377d228025b",
+      "fileSize" : 3132
+    },
+    {
       "path" : ".git/COMMIT_EDITMSG",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670109121,
-      "checksum" : "d8e8fca2dc0f896fd7cb4cb0031ba249",
-      "fileSize" : 5
+      "lastUpdated" : 1670109683,
+      "checksum" : "e0a5910d2c55bfb38ebc39ed4b7866ba",
+      "fileSize" : 8
     },
     {
       "path" : ".git/objects/41/00d911b51e838f23d49e37f626d283c2522dc4",
@@ -456,18 +505,18 @@
       "fileSize" : 119
     },
     {
-      "path" : "DAMY Amazon AWS  droplet.app/Contents/Info.plist",
-      "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670108092,
-      "checksum" : "2cad63f9395ffd5d6bfab96e7aad8463",
-      "fileSize" : 2347
-    },
-    {
       "path" : ".git/objects/18/ebef9de1e045ad7b5bb75818bd6eaa9fbabfc2",
       "mimeType" : "application/octet-stream",
       "lastUpdated" : 1670108113,
       "checksum" : "131f93eed9f37bd20ba3bb6b40c9eac5",
       "fileSize" : 55
+    },
+    {
+      "path" : "DAMY Amazon AWS  droplet.app/Contents/Info.plist",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670108092,
+      "checksum" : "2cad63f9395ffd5d6bfab96e7aad8463",
+      "fileSize" : 2347
     },
     {
       "path" : ".git/objects/84/ae653108de8e0cc0bc17bbbe8cfd7e88fa7552",
@@ -507,9 +556,16 @@
     {
       "path" : ".git/logs/HEAD",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670109121,
-      "checksum" : "8ade8d908bbb3ec44090724e2df1d6bd",
-      "fileSize" : 1070
+      "lastUpdated" : 1670109683,
+      "checksum" : "d6ff7dcf7d9a3a7d99b93073714d5524",
+      "fileSize" : 1249
+    },
+    {
+      "path" : ".git/objects/db/cc2ff8f7f44c542bd9b0c02a928f5e1f5035f3",
+      "mimeType" : "application/octet-stream",
+      "lastUpdated" : 1670109681,
+      "checksum" : "65aa01d9e2d9809f8dfb1b75a5a57cc3",
+      "fileSize" : 219
     },
     {
       "path" : ".git/objects/e6/9de29bb2d1d6434b8b29ae775ad8c2e48c5391",
@@ -521,9 +577,9 @@
     {
       "path" : ".git/logs/refs/heads/main",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670109121,
-      "checksum" : "8ade8d908bbb3ec44090724e2df1d6bd",
-      "fileSize" : 1070
+      "lastUpdated" : 1670109683,
+      "checksum" : "d6ff7dcf7d9a3a7d99b93073714d5524",
+      "fileSize" : 1249
     },
     {
       "path" : ".git/objects/54/3bd93918353e9890c9f31e3769e204dce42d13",
@@ -552,6 +608,13 @@
       "lastUpdated" : 1670108864,
       "checksum" : "cab35383c83b89218112fb48e87690fa",
       "fileSize" : 184
+    },
+    {
+      "path" : "_site.json",
+      "mimeType" : "application/json",
+      "lastUpdated" : 1670560487,
+      "checksum" : "bb1fcd6667c27d27be2cbf8f1bd05d27",
+      "fileSize" : 22286
     },
     {
       "path" : ".git/objects/b9/99e99a91a27824d3070125b245875134d4ddd3",
@@ -591,8 +654,8 @@
     {
       "path" : ".git/FETCH_HEAD",
       "mimeType" : "application/octet-stream",
-      "lastUpdated" : 1670108989,
-      "checksum" : "e5586cce34ba03fe2c9931bf2f2f4416",
+      "lastUpdated" : 1670160226,
+      "checksum" : "215ed8fa56d5775b6033173e5422287e",
       "fileSize" : 104
     },
     {

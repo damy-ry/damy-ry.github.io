@@ -7,7 +7,7 @@
       "uuidString" : "3C18623B-54D5-4AC6-B691-D5070352EC68"
     }
   ],
-  "creatorBuild" : "34365",
+  "creatorBuild" : "34434",
   "files" : {
     "\/_site.json" : {
       "ft" : 524288,
@@ -16,6 +16,14 @@
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
+    },
+    "\/.gitignore" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/.gitignore",
+      "oF" : 0
     },
     "\/DAMY Amazon AWS  droplet.app\/Contents\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
@@ -79,6 +87,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/DAMY Amazon AWS  droplet.app\/Icon\r",
+      "oF" : 0
+    },
+    "\/damy-ry-github-io.code-workspace" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/damy-ry-github-io.code-workspace",
       "oF" : 0
     },
     "\/footer.js" : {
@@ -871,7 +887,8 @@
         "active" : 1
       },
       "no-fallthrough" : {
-        "active" : 1
+        "active" : 1,
+        "optionString" : "{'allowEmptyCase': false}"
       },
       "no-floating-decimal" : {
         "active" : 0
@@ -1033,7 +1050,8 @@
         "optionString" : "'event', 'fdescribe'"
       },
       "no-restricted-imports" : {
-        "active" : 0
+        "active" : 0,
+        "optionString" : ""
       },
       "no-restricted-properties" : {
         "active" : 0,
@@ -1661,6 +1679,7 @@
       "createDeclarationFile" : 0,
       "jsxMode" : 0,
       "minifierStyle" : 0,
+      "moduleDetectionType" : 0,
       "moduleResolutionType" : 0,
       "moduleType" : 2,
       "removeComments" : 0,
