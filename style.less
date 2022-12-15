@@ -1,3 +1,155 @@
+////SCTO
+*{
+  
+  //font-family:"Trio Grotesk Demo" !important;
+  //font-family: "Scto Grotesk A Demo" !important;
+ // font-family: "Euclid Circular B" !important;
+}
+
+.header .header-nav-wrapper a, .header .language-item a {
+ //   font-weight: 500;
+}
+
+////SCTO
+
+
+html{
+  scroll-behavior: smooth;
+}
+
+
+//FOLDER CHEVRON 🧡
+
+.header-nav-folder-title{
+  margin-right:20px;
+}
+.header-nav-folder-title:after{
+  content:"";
+   content: '';
+            background: url('https://static1.squarespace.com/static/62f5262a0b58c94a255a69ba/t/63020679c9719d4bab261bf5/1661077114176/chevron+down.png') no-repeat center center;
+         position: absolute;
+top: 7.6px;
+    right: 3px;
+    width: 12px;
+    height: 15px;
+    background-size: contain;
+}
+
+//FOLDER CHEVRON 🧡
+
+
+//// HIDE WEIRD PAST EVENT BUTTON
+.eventlist-button{
+  display:none !important;
+}
+
+// hide eventlist divider
+.eventlist-past-upcoming-divider{
+  display:none !important;
+}
+
+
+//JS custom headings - past and previous events spacing
+.js-event-list-heading{
+  margin-bottom:60px;
+  &.past-events-custom-heading{
+    margin-top:120px !important;
+  }
+}
+
+
+
+
+
+
+
+
+
+//FOLDER
+.header-nav .header-nav-item--folder .header-nav-folder-content .header-nav-folder-item {
+    padding: 10px 10px 10px 0px;
+}
+
+
+///// LOGO GRID from gallery block
+section[data-section-id="638a4d1933d0a5435e47c1bd"] { 
+  .sqs-gallery-block-grid.sqs-gallery-aspect-ratio-four-three .slide .margin-wrapper a.image-slide-anchor, .sqs-gallery-block-grid.sqs-gallery-aspect-ratio-four-three .slide .margin-wrapper .content-wrapper, .sqs-gallery-block-grid.sqs-gallery-aspect-ratio-four-three .slide .margin-wrapper .content-wrapper.content-fill .sqs-video-wrapper{
+   padding:0 !important;
+   height:unset !important;
+  margin:30px 0 !important;
+
+}
+  .gallery-block{
+  img{
+  // box-sizing: border-box;
+    // display: block !important;
+    left: unset !important;
+    top: unset !important;
+    width: 100% !important;
+    height: unset !important;
+    object-fit: contain !important;
+    aspect-ratio: 8 !important;
+    mix-blend-mode: color-burn !important;
+    background: inherit;
+    
+  }
+  }
+}
+///// LOGO GRID from gallery block
+
+
+
+//😎😎😎 BLOG POST WIDTHS */
+
+//remove 75%. We don't want percentages as they mess shit up
+@media screen and (min-width: 768px){
+.tweak-blog-item-width-medium .blog-item-wrapper .blog-item-inner-wrapper {
+    //width: 100% !important;
+ // outline: 1px solid black;
+}
+}
+
+//restrict page content max width + center. title can be as wide as it wants.
+.blog-item-content-wrapper{
+ max-width:550px !important;
+  margin: auto;
+/*  
+p {
+   max-width:550px !important;
+  margin: auto;
+
+}  */
+
+  //outline: 1px solid red;
+}
+
+
+// blog post pagination to same horizontal level (if one is 1 line, second 2 lines they'd look funky)
+.item-pagination-link {
+  align-items: flex-start;
+}
+//😎😎😎 BLOG POST WIDTHS */
+
+h1.entry-title{
+  text-align:center;
+}
+
+.tweak-blog-item-show-date .blog-item-wrapper .blog-item-author-date-wrapper, .tweak-blog-item-show-author-name .blog-item-wrapper .blog-item-author-date-wrapper{
+  justify-content:center;
+}
+
+.tweak-blog-item-show-categories .blog-item-wrapper .blog-meta-item--categories{
+  text-align:center;
+}
+
+
+// WP IMPORT HAS SOME SQSP INTEREFING CLASSES
+.wp-block-image.size-large{
+    height: unset;
+    width: unset;
+}
+
+
 
 //// NEWSLETTER STYLES
 .sqs-block-newsletter .newsletter-form-field-element{
