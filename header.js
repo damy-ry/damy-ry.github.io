@@ -1,11 +1,16 @@
 
-console.log("hello local or maybe github dev");
+console.log("!!!!!!hello local or maybe github dev");
 
 
+/**
+ * 
+ * REDIRECT OLD PAGES JS
+ */
 
- //redirect old blog/news stuff e.g.  /?p=7487  goes to -> /blog/7540 and url /?p=7453 -> /blog/7453
+
+// old blog/news stuff e.g.  /?p=7487  goes to -> /blog/7540 and url /?p=7453 -> /blog/7453
   function redirectBlogUrls(){
-    const blogfeedUrl = "blog";
+    const blogfeedUrl = "uutiset";
     const url = window.location.href;
     if (url.includes('/?p=')) {
         const newUrl = url.replace('/?p=', '/' + blogfeedUrl +'/');
@@ -20,10 +25,16 @@ redirectBlogUrls();
 
 
 
-// TAPAHTUMAT TULEVAT MENNEET LINKIT JA H1 TITLES
 
- // Wait for the DOM to be loaded
-document.addEventListener('DOMContentLoaded', function() {
+
+
+/**
+ * TAPAHTUMAT TULEVAT MENNEET LINKIT JA H1 TITLES
+ */
+
+
+  $( document ).ready(function() {    
+    console.log("MMMMMMM");
     // Check if the current page path contains "/tapahtumat"
     if (window.location.pathname.includes('/tapahtumat')) {
       // Check if an element with the class "events-list" exists on the page
@@ -63,7 +74,8 @@ document.addEventListener('DOMContentLoaded', function() {
         }
       }
     }
-  });
+  }); 
+  
 
 
 
@@ -75,13 +87,11 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 
+/**
+ * BLOG POST DATES - not working for finnish format fully yet
+ */
 
-
-
-
-
-
-//// BLOG POST DATES
+/*
 
 var monthNumberToMonthName = function(monthNumber){
     
@@ -249,6 +259,19 @@ var monthNumberToMonthName = function(monthNumber){
 
 
  
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
