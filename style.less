@@ -1,3 +1,95 @@
+/*
+* HEADER
+*/
+
+//hover link style  (same as active styles have)
+body:not(.header--menu-open) .header-nav-item:hover a {
+  background-image: linear-gradient(currentColor,currentColor);
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+  background-position: 0 100%;
+  background-position: 0 calc(100% - 0.1em);
+}
+
+
+
+
+
+
+
+//🤯🤯🤯🤯 HARDIAN HEADER CENTERING FIX CALCULATIONS
+
+.header-layout-nav-center .header-title {
+  //logo sizing. manual in PX becaue otherwise it will scale as %, and changes size depending on screen size. we wanna have it be specific  
+  
+  @media (min-width:1023px){
+  .header-title-logo img {
+    //width:120px !important;
+    }
+  }
+  
+//    width: 33%;
+//      width:10px;;
+//    flex: 1 1 33%;
+  flex: 1 1 20%;
+  //outline:2px solid purple;
+}
+.header-title-nav-wrapper{
+//  flex: 1 0 67%;
+  flex: 1 0 80%;
+   // outline:1px solid red;
+}
+
+.header-layout-nav-center .header-nav {
+    width: 34%;
+    flex: 1 1 100%;
+  //outline:1px solid black;
+}
+
+.header-layout-nav-center .header-actions {
+    width: 14%;
+    //outline:1px solid black;
+}
+
+
+//🤯🤯🤯🤯 header spacings responsive TODO CALCULATE MATH. NOW EYEBALLED TO CENTER
+
+//HEADER - LOGO - ADJUST LOGO SIZE ON DESKTOP ❗ don't touch. this affects other things and must be re-edited
+/*
+@media only screen and (min-width:600px){
+  .header-title-logo img {
+      transform: scale(1.2);
+      transform-origin: left center !important;
+  }
+}
+
+  @media only screen and (min-width:1023px){
+    .header-title-logo img {
+      transform: scale(1.8);
+  }
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ////SCTO
 *{
   
@@ -124,6 +216,7 @@ p {
 }
 
 
+
 // blog post pagination to same horizontal level (if one is 1 line, second 2 lines they'd look funky)
 .item-pagination-link {
   align-items: flex-start;
@@ -187,100 +280,8 @@ h1.entry-title{
 */
 
 
-/*
 
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21d7aa790a17d30ae4d6/1671111127097/EuclidCircularA-Bold-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21dd7cf79c796c48022c/1671111133849/EuclidCircularA-BoldItalic-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21df29836a62c148c83a/1671111135985/EuclidCircularA-Light-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21e2c5f8f879a2f554a5/1671111138040/EuclidCircularA-LightItalic-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21e3beab541d9494c45f/1671111139987/EuclidCircularA-Medium-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21e5e75d91762c7b2f45/1671111141792/EuclidCircularA-MediumItalic-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21e7729baf5901606348/1671111144022/EuclidCircularA-Regular-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21ea1c4f2411a7376692/1671111146711/EuclidCircularA-RegularItalic-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21f19a6d4a34b07caa91/1671111153041/EuclidCircularA-Semibold-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21f3c4d1110706dcd389/1671111155465/EuclidCircularA-SemiboldItalic-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21f429174632aa63e49a/1671111156997/EuclidCircularB-Bold-WebS.woff2
-
-https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/639b21f609f00e60d6f3d269/1671111158857/EuclidCircularB-BoldItalic-WebS.woff2
-
-make webfont kit for all of these. only woff2 file. no need for woff or ttf.
-get the font-weight from file name e.g. EuclidCircularA-Bold-WebS is 700
-
-*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-🤯🤯🤯🤯 HARDIAN HEADER CENTERING FIX CALCULATIONS
-
-*/
-
-
-.header-layout-nav-center .header-title {
-  //logo sizing. manual in PX becaue otherwise it will scale as %, and changes size depending on screen size. we wanna have it be specific  
-  
-  @media (min-width:1023px){
-  .header-title-logo img {
-    width:120px !important;
-    }
-  }
-  
-//    width: 33%;
-//      width:10px;;
-//    flex: 1 1 33%;
-  flex: 1 1 20%;
-  //outline:2px solid purple;
-}
-.header-title-nav-wrapper{
-//  flex: 1 0 67%;
-  flex: 1 0 80%;
-   // outline:1px solid red;
+*{
+  //font-family: "Trio Grotesk Demo" !important;
 }
 
-.header-layout-nav-center .header-nav {
-    width: 34%;
-    flex: 1 1 100%;
-  //outline:1px solid black;
-}
-
-.header-layout-nav-center .header-actions {
-    width: 14%;
-    //outline:1px solid black;
-}
-
-
-//🤯🤯🤯🤯 header spacings responsive TODO CALCULATE MATH. NOW EYEBALLED TO CENTER
-
-//HEADER - LOGO - ADJUST LOGO SIZE ON DESKTOP ❗ don't touch. this affects other things and must be re-edited
-
-@media only screen and (min-width:600px){
-.header-title-logo img {
-    transform: scale(1.2);
-    transform-origin: left center !important;
-}
-}
-@media only screen and (min-width:1023px){
-  .header-title-logo img {
-    transform: scale(1.8);
-}
-}
