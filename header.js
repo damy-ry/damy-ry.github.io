@@ -82,6 +82,164 @@ redirectBlogUrls();
 
 
 
+  ////SINGLE POST
+    $( document ).ready(function() {    
+        //❗IF BLOG POST SINGLE  DATE FORMAT
+    if(document.querySelector("meta[itemprop=datePublished]")){
+    
+      //if(document.querySelector("meta[itemprop=datePublished]").getAttribute("content") === "Description of the webpage")
+    
+        //console.log("BLOG SINGLE POST WITH DATE FOR IT");
+        
+        //blog post single - <meta itemprop="datePublished" content="2022-09-14T16:31:36+0300">
+        console.log("yes");
+         var blogSinglePublishDate = $('meta[itemprop="datePublished"]').attr("content")
+        console.log(blogSinglePublishDate);
+        var blogSingleDateArray = blogSinglePublishDate.split("T");
+        console.log(blogSingleDateArray);
+        var blogSingleDateSplitted = blogSingleDateArray[0].split("-");
+    console.log(blogSingleDateSplitted);
+    
+        var year = blogSingleDateSplitted[0];
+        var monthNumber = blogSingleDateSplitted[1];
+        var day = blogSingleDateSplitted[2]
+        var kuukaudennimi = monthNumberToMonthName(monthNumber);
+        var kuukaudenNimiLyhyt =  kuukaudennimi.substring(0, 3);
+        console.log("kuukaudenimi kuukaudelle " + monthNumber + "on " + kuukaudennimi);
+        //$(".blog-meta-item--date span").html(year + "-" + monthNumber + "-" + day).addClass("dateFormatted-and-ready-to-show");
+    
+    
+                            //👇👇👇    EDIT SIGNLE BLOG POST DATE FORMAT HERE    👇👇👇
+            var singlePostDateFormat =  day + "/" + monthNumber + "/" + year;
+                                    //👆👆👆.   EDIT SIGNLE BLOG POST DATE FORMAT HERE.   👆👆👆
+    
+        
+        $(".blog-meta-item--date span").html(singlePostDateFormat).addClass("dateFormatted-and-ready-to-show");
+    
+    }
+    else{
+      console.log("No meta description for blog date");
+    
+    }
+    
+    }); 
+
+
+
+
+
+
+
+
+
+
+
+
+    var monthNumberToMonthName = function(monthNumber){
+    
+      switch(monthNumber) {
+          case "01":
+              return "January";
+              break;
+          case "02":
+              return "February";
+              break;
+          case "03":
+              return "March";
+              break;
+          case "04":
+              return "April";
+              break;
+          case "05":
+              return "May";
+              break;
+          case "06":
+              return "June";
+              break;
+          case "07":
+              return "July";
+              break;
+          case "08":
+              return "August";
+              break;
+          case "09":
+              return "September";
+              break;
+          case "10":
+              return "October";
+              break;
+          case "11":
+              return "November";
+              break;
+          case "12":
+              return "December";
+              break;
+          default:
+              monthName = "error";
+          }
+      
+          //console.log(monthName);
+      }
+      
+      //EG
+      monthNumberToMonthName("01");
+
+
+
+
+
+
+
+
+
+
+  ////SINGLE POST DATE FORMAT
+  $( document ).ready(function() {    
+    //❗IF BLOG POST SINGLE  DATE FORMAT
+if(document.querySelector("meta[itemprop=datePublished]")){
+
+  //if(document.querySelector("meta[itemprop=datePublished]").getAttribute("content") === "Description of the webpage")
+
+    //console.log("BLOG SINGLE POST WITH DATE FOR IT");
+    
+    //blog post single - <meta itemprop="datePublished" content="2022-09-14T16:31:36+0300">
+    console.log("yes");
+     var blogSinglePublishDate = $('meta[itemprop="datePublished"]').attr("content")
+    console.log(blogSinglePublishDate);
+    var blogSingleDateArray = blogSinglePublishDate.split("T");
+    console.log(blogSingleDateArray);
+    var blogSingleDateSplitted = blogSingleDateArray[0].split("-");
+console.log(blogSingleDateSplitted);
+
+    var year = blogSingleDateSplitted[0];
+    var monthNumber = blogSingleDateSplitted[1];
+    var day = blogSingleDateSplitted[2]
+    var kuukaudennimi = monthNumberToMonthName(monthNumber);
+    var kuukaudenNimiLyhyt =  kuukaudennimi.substring(0, 3);
+    console.log("kuukaudenimi kuukaudelle " + monthNumber + "on " + kuukaudennimi);
+    //$(".blog-meta-item--date span").html(year + "-" + monthNumber + "-" + day).addClass("dateFormatted-and-ready-to-show");
+
+
+                        //👇👇👇    EDIT SIGNLE BLOG POST DATE FORMAT HERE    👇👇👇
+        var singlePostDateFormat =  day + "." + monthNumber + "." + year;
+                                //👆👆👆.   EDIT SIGNLE BLOG POST DATE FORMAT HERE.   👆👆👆
+
+    
+    $(".blog-meta-item--date span").html(singlePostDateFormat).addClass("dateFormatted-and-ready-to-show");
+
+}
+else{
+  console.log("No meta description for blog date");
+
+}
+
+}); 
+
+
+
+
+
+
 
 
 
@@ -93,54 +251,7 @@ redirectBlogUrls();
 
 /*
 
-var monthNumberToMonthName = function(monthNumber){
-    
-    switch(monthNumber) {
-        case "01":
-            return "January";
-            break;
-        case "02":
-            return "February";
-            break;
-        case "03":
-            return "March";
-            break;
-        case "04":
-            return "April";
-            break;
-        case "05":
-            return "May";
-            break;
-        case "06":
-            return "June";
-            break;
-        case "07":
-            return "July";
-            break;
-        case "08":
-            return "August";
-            break;
-        case "09":
-            return "September";
-            break;
-        case "10":
-            return "October";
-            break;
-        case "11":
-            return "November";
-            break;
-        case "12":
-            return "December";
-            break;
-        default:
-            monthName = "error";
-        }
-    
-        //console.log(monthName);
-    }
-    
-    //EG
-    monthNumberToMonthName("01");
+
     
     
     //// BLOG PAGE GRID DATES – OROGINALLY MONTH/DAY/YEAR WITH HTML <time class="blog-date" pubdate="" data-animation-role="date">9/14/22</time>
@@ -185,47 +296,7 @@ var monthNumberToMonthName = function(monthNumber){
     
     
     
-    ////SINGLE POST
-    $( document ).ready(function() {    
-        //❗IF BLOG POST SINGLE  DATE FORMAT
-    if(document.querySelector("meta[itemprop=datePublished]")){
-    
-      //if(document.querySelector("meta[itemprop=datePublished]").getAttribute("content") === "Description of the webpage")
-    
-        //console.log("BLOG SINGLE POST WITH DATE FOR IT");
-        
-        //blog post single - <meta itemprop="datePublished" content="2022-09-14T16:31:36+0300">
-        console.log("yes");
-         var blogSinglePublishDate = $('meta[itemprop="datePublished"]').attr("content")
-        console.log(blogSinglePublishDate);
-        var blogSingleDateArray = blogSinglePublishDate.split("T");
-        console.log(blogSingleDateArray);
-        var blogSingleDateSplitted = blogSingleDateArray[0].split("-");
-    console.log(blogSingleDateSplitted);
-    
-        var year = blogSingleDateSplitted[0];
-        var monthNumber = blogSingleDateSplitted[1];
-        var day = blogSingleDateSplitted[2]
-        var kuukaudennimi = monthNumberToMonthName(monthNumber);
-        var kuukaudenNimiLyhyt =  kuukaudennimi.substring(0, 3);
-        console.log("kuukaudenimi kuukaudelle " + monthNumber + "on " + kuukaudennimi);
-        //$(".blog-meta-item--date span").html(year + "-" + monthNumber + "-" + day).addClass("dateFormatted-and-ready-to-show");
-    
-    
-                            //👇👇👇    EDIT SIGNLE BLOG POST DATE FORMAT HERE    👇👇👇
-            var singlePostDateFormat =  day + "/" + monthNumber + "/" + year;
-                                    //👆👆👆.   EDIT SIGNLE BLOG POST DATE FORMAT HERE.   👆👆👆
-    
-        
-        $(".blog-meta-item--date span").html(singlePostDateFormat).addClass("dateFormatted-and-ready-to-show");
-    
-    }
-    else{
-      console.log("No meta description for blog date");
-    
-    }
-    
-    }); 
+  
     
     
     
