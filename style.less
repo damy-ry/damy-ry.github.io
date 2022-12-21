@@ -1,3 +1,8 @@
+:root{
+  --damy-orange: #F58820;
+}
+
+
 /*
 * HEADER
 */
@@ -256,8 +261,8 @@ h1.entry-title{
 
 
 .summary-item-record-type-event{
-  *{
-    transition: .3s all ease;
+  .summary-thumbnail-event-date{
+   
   }
   &:hover{
     .summary-thumbnail-event-date,{
@@ -284,4 +289,43 @@ h1.entry-title{
 *{
   //font-family: "Trio Grotesk Demo" !important;
 }
+
+
+
+
+
+
+/*
+
+COLORS (hover, active, etc)
+
+*/
+
+.header-nav-item, p{
+  &:hover, &.header-nav-item--active{
+    a{
+      color: var(--damy-orange) !important;
+    }
+  }
+}
+
+.sqs-block-button-element, .btn{
+  &:hover{
+    background-color: var(--damy-orange) !important;
+  }
+}
+
+.summary-item{
+  &:hover{
+    .summary-title, .summary-read-more-link{
+      color: var(--damy-orange) !important;
+    }
+  }
+}
+
+
+
+
+
+
 

@@ -1,3 +1,6 @@
+:root {
+  --damy-orange: #F58820;
+}
 /*
 * HEADER
 */
@@ -118,12 +121,28 @@ h1.entry-title {
 .newsletter-block .newsletter-form-button {
   padding: 0.9rem 2rem !important;
 }
-.summary-item-record-type-event * {
-  transition: 0.3s all ease;
-}
 .summary-item-record-type-event:hover .summary-thumbnail-event-date {
   transform: translateY(-2px);
 }
 /*
 * WEBFONTS
 */
+/*
+
+COLORS (hover, active, etc)
+
+*/
+.header-nav-item:hover a,
+p:hover a,
+.header-nav-item.header-nav-item--active a,
+p.header-nav-item--active a {
+  color: var(--damy-orange) !important;
+}
+.sqs-block-button-element:hover,
+.btn:hover {
+  background-color: var(--damy-orange) !important;
+}
+.summary-item:hover .summary-title,
+.summary-item:hover .summary-read-more-link {
+  color: var(--damy-orange) !important;
+}
