@@ -80,7 +80,6 @@ redirectBlogUrls();
 
 
 
-  
 // Tapahtumat: päivämäärä thumbnailista tekstin sekaan
 function prependDateToEventTimeLocalizedStart(){
     var eventTimeLocalizedStart = document.querySelectorAll(".event-time-localized-start");
@@ -96,10 +95,10 @@ function prependDateToEventTimeLocalizedStart(){
     }
 }
 
-// run on dom ready
+// EI TARVITAKKAAN - BUILT-IN LÖYTYI
 $( document ).ready(function() {
   //Huom. päivämäärä toimii vaan jos yhden päivän tapahtuma, koska tää on tapahtuman alku päivämäärä
-    prependDateToEventTimeLocalizedStart();
+   // prependDateToEventTimeLocalizedStart();
 });
 
 
@@ -366,11 +365,6 @@ else{
 
  
 */
-
-
-
-
-
 
 
 
