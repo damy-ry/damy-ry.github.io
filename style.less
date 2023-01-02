@@ -329,3 +329,39 @@ COLORS (hover, active, etc)
 
 
 
+*{
+  //background: green !important;
+}
+
+
+/*
+Make font-face webfont kit for these fonts
+https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c17d645430422be0e593/1672593789860/PPTelegraf-UltraLight.otf
+
+https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c177a3e24b7481c64096/1672593783277/PPTelegraf-Regular.otf
+
+https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c17ae36d7862da85fddd/1672593786602/PPTelegraf-UltraBold.otf
+
+*/
+@font-face {
+  font-family: "PPTelegraf";
+  font-weight: 300;
+  src: url("https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c17d645430422be0e593/1672593789860/PPTelegraf-UltraLight.otf") format("opentype");
+}
+
+@font-face{
+  font-family: "PPTelegraf";
+  font-weight: 400;
+  src: url("https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c177a3e24b7481c64096/1672593783277/PPTelegraf-Regular.otf") format("opentype");
+}
+
+@font-face{ 
+  font-family: "PPTelegraf";
+  font-weight: 900;
+  src: url("https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c17ae36d7862da85fddd/1672593786602/PPTelegraf-UltraBold.otf") format("opentype");
+}
+
+
+*{
+  font-family: "PPTelegraf" !important;
+}

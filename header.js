@@ -80,6 +80,41 @@ redirectBlogUrls();
 
 
 
+  
+// Tapahtumat: päivämäärä thumbnailista tekstin sekaan
+function prependDateToEventTimeLocalizedStart(){
+    var eventTimeLocalizedStart = document.querySelectorAll(".event-time-localized-start");
+    for (var i = 0; i < eventTimeLocalizedStart.length; i++) {
+        var datetime = eventTimeLocalizedStart[i].getAttribute("datetime");
+        var datetimeSplit = datetime.split("-");
+        var year = datetimeSplit[0];
+        var month = datetimeSplit[1];
+        var day = datetimeSplit[2];
+        var time = eventTimeLocalizedStart[i].innerHTML;
+        var newDateTime = day + "." + month + "." + year + " klo " + time;
+        eventTimeLocalizedStart[i].innerHTML = newDateTime;
+    }
+}
+
+// run on dom ready
+$( document ).ready(function() {
+  //Huom. päivämäärä toimii vaan jos yhden päivän tapahtuma, koska tää on tapahtuman alku päivämäärä
+    prependDateToEventTimeLocalizedStart();
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   ////SINGLE POST
