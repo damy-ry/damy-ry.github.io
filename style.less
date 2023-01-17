@@ -343,6 +343,7 @@ https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c177a3e24b
 https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c17ae36d7862da85fddd/1672593786602/PPTelegraf-UltraBold.otf
 
 */
+/*
 @font-face {
   font-family: "PPTelegraf";
   font-weight: 300;
@@ -360,8 +361,116 @@ https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c17ae36d78
   font-weight: 900;
   src: url("https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63b1c17ae36d7862da85fddd/1672593786602/PPTelegraf-UltraBold.otf") format("opentype");
 }
+*/
+
+
+/*
+
+update the webfont kits to use these 4 files below. we now have 4 weights. make them 300 400 600 700. only woff 2 files. no woff or others
+
+https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63c6d06fb666523942f393ad/1673973871222/PPTelegraf-Bold.woff2
+
+https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63c6d0885117487dde0c118f/1673973896705/PPTelegraf-Semibold.woff2
+
+https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63c6d091fdaa494c59db3bb7/1673973905659/PPTelegraf-Regular.woff2
+
+https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63c6d09cbbde925a3071daa1/1673973916683/PPTelegraf-Light.woff2
+
+*/
+@font-face {
+  font-family: "PPTelegraf";
+  font-weight: 700;
+  src: url("https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63c6d06fb666523942f393ad/1673973871222/PPTelegraf-Bold.woff2") format("woff2");
+}
+
+@font-face{
+  font-family: "PPTelegraf";
+  font-weight: 600;
+  src: url("https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63c6d0885117487dde0c118f/1673973896705/PPTelegraf-Semibold.woff2") format("woff2");
+}
+
+@font-face{ 
+  font-family: "PPTelegraf";
+  font-weight: 400;
+  src: url("https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63c6d091fdaa494c59db3bb7/1673973905659/PPTelegraf-Regular.woff2") format("woff2");
+}
+
+@font-face{ 
+  font-family: "PPTelegraf";
+  font-weight: 300;
+  src: url("https://static1.squarespace.com/static/638a234bdcc3ba18082d0b19/t/63c6d09cbbde925a3071daa1/1673973916683/PPTelegraf-Light.woff2") format("woff2");
+}
+
+
 
 
 *{
   font-family: "PPTelegraf" !important;
 }
+
+//make all headings use the semibold weight
+h1, h2, h3, h4, h5, h6, .summary-title, .header .header-nav-wrapper a, .btn{
+  font-weight: 600 !important;
+}
+
+
+.summary-metadata-item, .eventlist-meta-item{
+  font-weight: 300 !important;
+}
+
+pre code{
+  font-weight: 800 !important;
+  letter-spacing: 0.23em !important;
+  font-size: 22px !important;
+  text-transform: uppercase !important;
+}
+/*
+TYPOGRAPHY from JT
+*/
+
+
+/*
+
+h1{
+  font-size:50px !important;
+  line-height: 55px !important;
+//add media query max width 767px
+  @media (max-width: 767px) {
+    font-size: 40px !important;
+    line-height: 50px !important;
+  }
+}
+
+h2{
+  font-size:40px !important;
+  line-height: 50px !important;
+}
+h3{
+  font-size:30px !important;
+  line-height: 37px !important;
+}
+
+h4{
+  font-size:22px !important;
+  line-height: 26px !important;
+}
+
+p{
+  font-size:18px !important;
+  line-height: 22px !important;
+}
+pre code{
+  font-size:25px !important;
+  line-height: 29px;
+  text-transform: uppercase !important;
+  letter-spacing: 0.15em !important;
+  font-family: "PPTelegraf";
+  font-weight: 900 !important;
+
+}
+*/
+
+/*
+telegraf semibold 50/55 px telegraf semibold 40/50 px telegraf semibold 30/37 px telegraf semibold 22/26 px telegraf regular 18/22 px telegraf regular 16/20 px telegraf light 14/17 px
+TELEGRAF BOLD 25 / 29 PX 30 %
+*/
